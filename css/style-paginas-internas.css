@@ -7,6 +7,21 @@ html body .center-important {
   margin: 0 auto !important;
 }
 
+@media screen and (max-width: 991px) {
+  html body h1 {
+    font-size: 18px !important;
+  }
+}
+
+html body .linhaVerde {
+  width: 39px;
+  display: block;
+  border-radius: 5px;
+  height: 4px;
+  margin: 0 auto 30px auto;
+  background-color: #0ecc86;
+}
+
 html body header {
   height: 239px;
   background-image: linear-gradient(to top, #775abc, #422e86);
@@ -75,6 +90,147 @@ html body header nav.navbar form button.btn {
   font-weight: 300;
   font-size: 15px;
   outline: none;
+}
+
+html body #vantagensCadaPlano .modal-dialog {
+  max-width: 858px;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+  html body #vantagensCadaPlano .modal-dialog {
+    max-width: 500px;
+  }
+}
+
+html body #vantagensCadaPlano .modal-dialog p#ajustaParaFechar {
+  position: relative;
+  height: 50px;
+  margin-bottom: 0;
+  background: transparent;
+}
+
+html body #vantagensCadaPlano .modal-dialog p#ajustaParaFechar #fecharModal {
+  color: #fff;
+  opacity: 1;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 30px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-header {
+  border: none;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-header .modal-title {
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #422e86;
+  font-weight: 400;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body {
+  padding-top: 0;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body #listaPlanos {
+  float: right;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 991px) {
+  html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body #listaPlanos {
+    float: none;
+    display: block;
+    max-width: 428px;
+    margin: 10px auto;
+  }
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body #listaPlanos li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  text-align: center;
+  font-weight: 400;
+  padding-right: 33px;
+  color: #422e86;
+  margin-right: 33px;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body #listaPlanos li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 991px) {
+  html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body #listaPlanos li {
+    padding-left: 0px;
+    padding-right: 24px;
+  }
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row {
+  padding: 6px 0;
+  border-top: solid 1px #422e86;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row div {
+  border: none;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row div div .checkPlanos {
+  width: 41px;
+  height: 41px;
+  border-radius: 4px;
+  border: solid 2px #c4c4c4;
+  margin: 0 auto;
+  top: 50%;
+  display: block;
+  position: relative;
+  margin-top: -20.5px;
+}
+
+@media screen and (max-width: 991px) {
+  html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row div div .checkPlanos {
+    top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row div div.plano h5 {
+  font-size: 17px;
+  line-height: 1.18;
+  letter-spacing: 0.3px;
+  text-align: right;
+  color: #422e86;
+  font-weight: 400;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row div div.plano ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+html body #vantagensCadaPlano .modal-dialog .modal-content .modal-body div.row div div.plano ul li {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.67;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: #383838;
 }
 
 html body main {
@@ -155,11 +311,23 @@ html body main #termosDeUso div p {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal {
+    margin: 0 auto;
+  }
+}
+
 html body main #secaoComeceAgora #chamada-principal #bloco-verde {
   width: 131px;
   height: 101px;
   border-radius: 8px 0px 0px 8px;
   background-color: #25d194;
+}
+
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #bloco-verde {
+    display: none;
+  }
 }
 
 html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores {
@@ -172,10 +340,24 @@ html body main #secaoComeceAgora #chamada-principal #container-bloco-controlador
   background-color: #7b5fc9;
 }
 
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores {
+    border-radius: 8px 8px 8px 8px;
+    width: 100%;
+  }
+}
+
 html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores {
   display: table-cell;
   width: 100%;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores #textoLista {
+    text-align: center;
+    padding: 15px;
+  }
 }
 
 html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores p {
@@ -187,7 +369,12 @@ html body main #secaoComeceAgora #chamada-principal #container-bloco-controlador
   padding-left: 9px;
   margin-bottom: 5px;
   font-weight: 400;
-  height: 31px;
+}
+
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores p {
+    font-size: 16px;
+  }
 }
 
 html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores ul {
@@ -207,6 +394,13 @@ html body main #secaoComeceAgora #chamada-principal #container-bloco-controlador
   margin-top: 8px;
 }
 
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores #botaoDivisoria {
+    float: none !important;
+    padding: 15px;
+  }
+}
+
 html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores #botaoDivisoria span {
   font-weight: 400;
   color: #fff;
@@ -222,6 +416,12 @@ html body main #secaoComeceAgora #chamada-principal #container-bloco-controlador
   height: 73px;
 }
 
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores #botaoDivisoria span.divisoria {
+    display: none;
+  }
+}
+
 html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores #botaoDivisoria #comeceAgora {
   border: none;
   color: #fff;
@@ -233,6 +433,13 @@ html body main #secaoComeceAgora #chamada-principal #container-bloco-controlador
   margin-right: 33.4px;
 }
 
+@media screen and (max-width: 1199px) {
+  html body main #secaoComeceAgora #chamada-principal #container-bloco-controladores #bloco-colaboladores #botaoDivisoria #comeceAgora {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 html body main #sectionPlanos {
   background-image: linear-gradient(to top, #775abc, #9782e1);
   padding-top: 50px;
@@ -240,7 +447,6 @@ html body main #sectionPlanos {
 }
 
 html body main #sectionPlanos h2 {
-  height: 28px;
   font-weight: 400;
   font-size: 33px;
   line-height: 0.85;
@@ -286,6 +492,12 @@ html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano.tabelaCentral 
   background-color: #fde584;
 }
 
+@media screen and (max-width: 768px) {
+  html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano.tabelaCentral {
+    margin-top: 40px;
+  }
+}
+
 html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano.tabelaCentral .containerPlanoTable {
   background-color: #624aa7;
   margin-top: 0px;
@@ -299,6 +511,12 @@ html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlan
   color: #fff;
   margin: 0 auto;
   margin-top: 54px;
+}
+
+@media screen and (max-width: 768px) {
+  html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlanoTable {
+    width: 100%;
+  }
 }
 
 html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlanoTable .faleComConsultor {
@@ -346,6 +564,12 @@ html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlan
   height: 1px;
   display: block;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlanoTable .divisoria {
+    width: 100%;
+  }
 }
 
 html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlanoTable .tabelaBloco1, html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlanoTable .tabelaBloco2, html body main #sectionPlanos #containerTabelaPlanos .tabelaPlano .containerPlanoTable .tabelaBloco3 {
@@ -475,6 +699,12 @@ html body main #historiaSucesso .historia {
   border: solid 1px rgba(108, 78, 181, 0.54);
 }
 
+@media screen and (max-width: 576px) {
+  html body main #historiaSucesso .historia {
+    padding: 20px 20px;
+  }
+}
+
 html body main #historiaSucesso .historia:first-child {
   margin-top: 47px;
 }
@@ -486,6 +716,13 @@ html body main #historiaSucesso .historia h3 {
   text-align: left;
   color: #6c4eb6;
   margin: 20px 0;
+}
+
+@media screen and (max-width: 576px) {
+  html body main #historiaSucesso .historia .media img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 html body main #historiaSucesso .historia .media .media-body p {
@@ -504,6 +741,139 @@ html body main #historiaSucesso .historia .media .media-body button {
   border-radius: 2.4px;
   background-color: #25d194;
   box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+html body main section#quemSomos {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+html body main section#quemSomos img.block-img {
+  display: block;
+}
+
+html body main section#quemSomos h2 {
+  font-size: 70px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #422e86;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+html body main section#quemSomos #missaoValores {
+  padding: 45px 0;
+}
+
+html body main section#quemSomos #missaoValores div h4 {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #422e86;
+}
+
+html body main section#quemSomos #missaoValores div p {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.33;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  color: #383838;
+}
+
+html body main section#quemSomos #voceTambemAma {
+  padding: 50px;
+  background-image: linear-gradient(to top, #775abc, #9782e1);
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content {
+  max-width: 442px;
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content h3 {
+  font-size: 33px;
+  line-height: 0.85;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content .icone {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 100px;
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content .icone img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content .subtitulo {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content .descricao {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.33;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #ffffff;
+}
+
+html body main section#quemSomos #voceTambemAma div.container_content .descricao span {
+  font-weight: normal;
+  color: #25d194;
+}
+
+html body main section#quemSomos #nossoTimeQueDisse h3 {
+  font-size: 33px;
+  line-height: 0.85;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #422e86;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+html body main section#quemSomos #nossoTimeQueDisse #quadroFuncionarios div #blocoFuncionarios {
+  width: 372px;
+  display: block;
+  height: 376px;
+}
+
+html body main section#quemSomos #nossoTimeQueDisse #quadroFuncionarios div .comentario h5 {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.33;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #422e86;
+}
+
+html body main section#quemSomos #nossoTimeQueDisse #quadroFuncionarios div .comentario p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.33;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #383838;
 }
 
 html body footer {

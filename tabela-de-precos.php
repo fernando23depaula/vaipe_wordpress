@@ -163,8 +163,14 @@
 				</div>
 				<div class="linhaVerde"></div>
 		      	<div class="modal-body">
+		      		<ul id="listaPlanos">
+	        			<li>Essencial</li>
+	        			<li>Completo</li>
+	        			<li>Super</li>
+	        		</ul>
+	        		<div class="clearfix"></div>
 			      	<div class="row">
-				        <div class="col-sm-6">
+				        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 				        	<div class="plano">
 				        		<h5 class="tituloPlano">Termômetro de engajamento mensal</h5>
 				        		<ul class="text-right">
@@ -178,16 +184,71 @@
 								</ul>
 				        	</div>
 				        </div>
-				        <div class="col-sm-6">
-				        	<div class="col-sm-4"></div>
-				        	<div class="col-sm-4"></div>
-				        	<div class="col-sm-4"></div>
+				        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
 				        </div>
 			        </div>
+			        <div class="row">
+			        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+					        <div class="plano">
+				        		<h5 class="tituloPlano">Pesquisa de clima organizacional semanal</h5>
+				        		<ul class="text-right">
+									<li>Uma pergunta sim ou não por semana</li>
+									<li>Resultado em tempo real</li>
+									<li>Comparativo de Mercado</li>
+									<li>Análise por departamento, sexo e senioridade</li>
+									<li>Visualização dos resultados por grupos</li>
+									<li>Chat RH para responder feedbacks</li>
+									<li>Nº de administradores na plataforma: ilimitado</li>
+								</ul>
+				        	</div>
+				        </div>
+				        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        </div>
+		        	</div>
+		        	<div class="row">
+		        		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				        	<div class="plano">
+				        		<h5 class="tituloPlano">Termômetro de engajamento mensal</h5>
+				        		<ul class="text-right">
+									<li>53 perguntas sim ou não e a pergunta eNPS enviadas de uma única vez em questionário</li>
+									<li>Resultados em resumo ou detalhado</li>
+									<li>Perfil de funcionários</li>
+									<li>Chat RH para responder feedbacks</li>
+								</ul>
+				        	</div>
+				        </div>
+			        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        	<div class="col-4">
+				        		<span class="checkPlanos align-middle"></span>
+				        	</div>
+				        </div>
+		        	</div>
 			    </div>
-		      <div class="modal-footer">
-		       <button type="submit" class="btn btn-primary">Enviar</button>
-		      </div>
+		     
 		    </div>
 		  </div>
 		</div>
