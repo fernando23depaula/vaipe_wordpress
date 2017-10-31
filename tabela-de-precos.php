@@ -58,7 +58,7 @@
 	<main>
 
 		<!-- Modal Vamos Bater um Papo-->
-		<div class="modal fade" id="vamosBaterUmPapo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal fade modalPage" id="vamosBaterUmPapo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		  <div class="modal-dialog" role="document">
 			<p id="ajustaParaFechar"><span id="fecharModal"  class="close" data-dismiss="modal" aria-label="Close">X</span></p>
 		    <div class="modal-content">
@@ -72,16 +72,16 @@
 		      	<div class="modal-body">
 		      	<h5>Preencha os campos abaixo e entraremos o contato com você o quanto antes!</h5>
 		        <form class="row">
-					<div class="col-sm-6">
-						<div class="form-group">
+					<div class="ajusteModal col-sm-6">
+						<div class="form-group form-group-faleConsultor">
 							<label for="nomeFormBaterUmPapa">Nome:</label>
 							<input type="text" class="form-control" id="nomeFormBaterUmPapa" name="nomeFormBaterUmPapa" placeholder="">	
 						</div>
-						<div class="form-group">
+						<div class="form-group form-group-faleConsultor">
 							<label for="emailFormBaterUmPapa">Email:</label>
 							<input type="email" class="form-control" id="emailFormBaterUmPapa" name="emailFormBaterUmPapa" placeholder="">	
 						</div>
-						<div class="form-group">
+						<div class="form-group form-group-faleConsultor">
 							<label for="cargoFormBaterUmPapa">Cargo:</label>
 							<select class="form-control" id="cargoFormBaterUmPapa">
 							<option value="">Selecione</option>
@@ -92,17 +92,17 @@
 							<option value="">5</option>
 							</select>
 						</div>
-						<div class="form-group">
+						<div class="form-group form-group-faleConsultor">
 							<label for="empresaFormBaterUmPapa">Empresa:</label>
 							<input type="text" class="form-control" id="empresaFormBaterUmPapa" name="empresaFormBaterUmPapa" placeholder="">	
 						</div>			  
 					</div>
-		        	<div class="col-sm-6">
-		        		<div class="form-group">
+		        	<div class="ajusteModal col-sm-6">
+		        		<div class="form-group form-group-faleConsultor">
 							<label for="telefoneFormBaterUmPapa">Telefone:</label>
 							<input type="text" class="form-control" id="telefoneFormBaterUmPapa" name="telefoneFormBaterUmPapa" placeholder="">	
 						</div>	
-						<div class="form-group">
+						<div class="form-group form-group-faleConsultor">
 							<label for="areaDeAtuacaoFormBaterUmPapa">Área de atuação:</label>
 							<select class="form-control" id="areaDeAtuacaoFormBaterUmPapa">
 							<option value="">Selecione</option>
@@ -113,7 +113,7 @@
 							<option value="">5</option>
 							</select>
 						</div>
-						<div class="form-group">
+						<div class="form-group form-group-faleConsultor">
 							<label for="numeroFuncionárioFormBaterUmPapa">Número de funcionários:</label>
 							<select class="form-control" id="numeroFuncionárioFormBaterUmPapa">
 							<option value="">Selecione</option>
@@ -124,7 +124,7 @@
 							<option value="">5</option>
 							</select>
 						</div>
-						<div class="form-group">
+						<div class="form-group form-group-faleConsultor">
 							<label for="comoConheceuVaipeFormBaterUmPapa">Como conheceu a Vaipe:</label>
 							<select class="form-control" id="comoConheceuVaipeFormBaterUmPapa">
 							<option value="">Selecione</option>
@@ -141,7 +141,7 @@
 				</form>
 		      </div>
 		      <div class="modal-footer">
-		       <button type="submit" class="btn btn-primary">Enviar</button>
+		       <button type="submit" class="btn btn-primary" id="enviarModalFaleComConsultor">Enviar</button>
 		      </div>
 		    </div>
 		  </div>
@@ -151,7 +151,7 @@
 		<!-- Modal Vantagens de Cada Plano -->
 		
 		
-		<div class="modal fade" id="vantagensCadaPlano" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal fade modalPage" id="vantagensCadaPlano" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		  <div class="modal-dialog" role="document">
 			<p id="ajustaParaFechar"><span id="fecharModal"  class="close" data-dismiss="modal" aria-label="Close">X</span></p>
 		    <div class="modal-content">
@@ -277,7 +277,7 @@
 			<h2 class="text-center">Planos para +10 colaboradores</h2>
 			<div class="linhaBranca"></div>
 			<div class="container row center-important" id="containerTabelaPlanos">
-					<div class="tabelaPlano col-sm-4">
+					<div class="tabelaPlano col-sm-12 col-md-4">
 						<div class="containerPlanoTable">
 							<div class="blocoIconeNome">
 								<p class="tituloPlano">Essencial</p>
@@ -325,7 +325,8 @@
 							<a href="" class="saibaMais">Saiba mais</a>
 						</div>
 					</div>
-					<div class="tabelaPlano col-sm-4 tabelaCentral">
+					<div class="ajusteTabela"></div>
+					<div class="tabelaPlano col-sm-12 col-md-4 tabelaCentral">
 						<p id="queridinho">O queridinho das empresas</p>
 						<div class="containerPlanoTable">
 							<div class="blocoIconeNome">
@@ -378,8 +379,8 @@
 							<a href="" class="saibaMais">Saiba mais</a>
 						</div>
 					</div>
-
-					<div class="tabelaPlano col-sm-4">
+					<div class="ajusteTabela"></div>
+					<div class="tabelaPlano col-sm-12 col-md-4">
 						<div class="containerPlanoTable">
 							<div class="blocoIconeNome">
 								<p class="tituloPlano">Super</p>

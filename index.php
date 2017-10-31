@@ -6,12 +6,55 @@
 
 	<title>Vaipe</title>
 	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="js/slick-1.8.0/slick/slick.css">
+	<link rel="stylesheet" href="js/slick-1.8.0/slick/slick-theme.css">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <!-- <script src="https://use.fontawesome.com/e9abb40d2f.js"></script> -->
+<script src="js/slick-1.8.0/slick/slick.min.js"></script>
+<style>
+	.slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+    .slick-slide {
+    text-align: center;
+    background: rgba(255,255,255,0.5);
+    margin: 10px;
+}
+</style>
 </head>
 <!-- php para condicional css -->
 <body  <?php //body_class( 'class-name' ); ?> >
@@ -92,7 +135,36 @@
 	<section id="superFerramentas">
 		<div class="container center-important">
 			<h3 class="text-center">Super ferramentas à sua disposição</h3>
-
+				  <div style="background: #3498db; padding: 100px; margin: 10px;">
+					<div class="large-slick">
+					    <div><h1>1</h1></div>
+					    <div><h1>2</h1></div>
+					    <div><h1>3</h1></div>
+					    <div><h1>4</h1></div>
+					    <div><h1>5</h1></div>
+					</div>
+					<div class="small-slick">
+					    <div><h1>1</h1></div>
+					    <div><h1>2</h1></div>
+					    <div><h1>3</h1></div>
+					    <div><h1>4</h1></div>
+					    <div><h1>5</h1></div>
+					</div>
+				</div>
+	
+			<script>
+				$(document).ready(function(){
+					 $('.small-slick').slick({
+         slidesToShow: 3,
+         slidesToScroll: 1,
+         dots: true,
+         centerMode: true,
+         focusOnSelect: true,
+         arrows: true,
+         asNavFor: '.large-slick'
+     });
+				});
+			</script>
 			<p>Que tal bater um papo sobre clima?</p>
 			<button class="faleComConsultor button-centralizado">Fale com um consultor</button>
 		</div>

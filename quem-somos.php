@@ -50,7 +50,7 @@
 		  </div>
 		</nav>
 		<div class="container center-important">
-			<h1 class='text-center'>Prazer, somos a Vaipe :)</h1>
+			<h1 class='text-left'>Prazer, somos a Vaipe :)</h1>
 		</div>
 		
 	</header>
