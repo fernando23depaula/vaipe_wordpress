@@ -843,6 +843,244 @@ html body main section#superFerramentas .container p {
   color: #ffffff;
 }
 
+@media screen and (max-width: 991px) {
+  html body main section#superFerramentas .container #example1 {
+    display: none;
+  }
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides-container {
+  margin-bottom: 20px;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails {
+  height: auto !important;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-thumbnail-container {
+  width: 115px !important;
+  height: 115px !important;
+  border-radius: 4px;
+  margin-top: 17px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  display: table;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-thumbnail-container .thumbnailContainerIcon {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: -5px 0 4px 0 rgba(0, 0, 0, 0.18);
+  display: table;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-thumbnail-container .thumbnailContainerIcon .ajusteThumb {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-thumbnail-container .thumbnailContainerIcon .ajusteThumb img {
+  margin-bottom: 7px;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-thumbnail-container .thumbnailContainerIcon .ajusteThumb p {
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: 300;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #37227a;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-selected-thumbnail {
+  width: 142px !important;
+  height: 142px !important;
+  margin-top: 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.41);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+html body main section#superFerramentas .container #example1 .sp-thumbnails .sp-selected-thumbnail .sp-thumbnail .ajusteThumb p {
+  font-size: 20px;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas {
+  padding: 0 40px;
+  max-width: 853px;
+  height: 468px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  left: 21px;
+  position: relative;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas h4 {
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #422e86;
+  font-weight: 400;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas .col-50 {
+  width: 50%;
+  float: left;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas .col-50 .containerInfo {
+  padding-left: 26px;
+  margin-bottom: 20px;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas .col-50 .containerInfo p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #422e86;
+  margin-bottom: 5px;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas .col-50 .containerInfo .conteudo p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.33;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  color: #383838;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas .col-50 .containerInfo .conteudo ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+html body main section#superFerramentas .container #example1 .sp-slides .sp-slide .containerFerramentas .col-50 .containerInfo .conteudo ul li {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.53;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #383838;
+}
+
+html body main section#superFerramentas .container .carousel-control-prev-icon {
+  background-image: url("../img/setas.png");
+  width: 22px;
+  height: 58px;
+  background-position: 10px -2px;
+  top: 27px;
+  position: absolute;
+  left: -8px;
+}
+
+html body main section#superFerramentas .container .carousel-control-next-icon {
+  background-image: url("../img/setas.png");
+  width: 22px;
+  height: 58px;
+  background-position: -13px -2px;
+  top: 27px;
+  position: absolute;
+  right: -8px;
+}
+
+html body main section#superFerramentas .container #sliderMobile {
+  margin-bottom: 20px;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas {
+  padding: 0 40px;
+  max-width: 853px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas h4 {
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #422e86;
+  font-weight: 400;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 {
+  width: 50%;
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 div img {
+    margin: 10px auto;
+    display: block;
+    max-width: 100%;
+  }
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 .containerInfo {
+  padding-left: 26px;
+  margin-bottom: 20px;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 .containerInfo p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #422e86;
+  margin-bottom: 5px;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 .containerInfo .conteudo p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.33;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  color: #383838;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 .containerInfo .conteudo ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+html body main section#superFerramentas .container #sliderMobile #carouselExampleControls .carousel-inner .containerFerramentas .col-50 .containerInfo .conteudo ul li {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.53;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #383838;
+}
+
 html body main section#prontoParaAcabarComClimao {
   padding: 50px 0 75px 0;
 }

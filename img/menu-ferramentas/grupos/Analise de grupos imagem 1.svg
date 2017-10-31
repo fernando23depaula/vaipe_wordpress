@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="398px" height="247px" viewBox="0 0 398 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 38 Copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.5%" y="-2.1%" width="103.6%" height="105.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.251188859 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="390" height="239" rx="4.86999989"></rect>
+        <rect id="path-4" x="0" y="0" width="112.752" height="114.144"></rect>
+    </defs>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-1" transform="translate(-300.000000, -1513.000000)">
+            <g id="Group-38" transform="translate(0.000000, 1121.000000)">
+                <g id="Group-41-Copy-4">
+                    <g id="Group-38-Copy-5" filter="url(#filter-1)" transform="translate(303.000000, 394.000000)">
+                        <g id="Young-People-Copy">
+                            <g id="Group-2">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" xlink:href="#path-2"></use>
+                                <g mask="url(#mask-3)">
+                                    <g transform="translate(12.000000, 28.000000)">
+                                        <g id="Group-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.583200, 0.905987)">
+                                            <rect id="Rectangle-2-Copy-5" stroke="#EAE9ED" stroke-width="1.2" x="0.6" y="114.048" width="111.552" height="64.224"></rect>
+                                            <g id="Group-3" transform="translate(31.320000, 29.928000)"></g>
+                                            <g id="Group-8">
+                                                <rect id="Rectangle-2" fill="#422E86" x="0" y="0" width="112.752" height="114.144"></rect>
+                                                <g id="Group-9" transform="translate(18.792000, 38.976000)" stroke-linecap="round" stroke-width="2.088" stroke="#FFFFFF" stroke-linejoin="round">
+                                                    <g id="Group-10">
+                                                        <path d="M44.892,11.6602597 C44.892,15.7940659 41.542558,19.1445195 37.41,19.1445195 C33.277442,19.1445195 29.928,15.7940659 29.928,11.6602597 C29.928,7.52645361 33.277442,4.176 37.41,4.176 C41.542558,4.176 44.892,7.52645361 44.892,11.6602597 Z" id="Stroke-103"></path>
+                                                        <path d="M52.896,36.1377662 L22.968,36.1377662 C22.968,29.2497525 28.549572,23.664 35.438,23.664 L40.426,23.664 C47.314428,23.664 52.896,29.2497525 52.896,36.1377662 Z" id="Stroke-104"></path>
+                                                        <path d="M21.924,7.48425974 C21.924,11.6180659 18.574558,14.9685195 14.442,14.9685195 C10.309442,14.9685195 6.96,11.6180659 6.96,7.48425974 C6.96,3.35045361 10.309442,0 14.442,0 C18.574558,0 21.924,3.35045361 21.924,7.48425974 Z" id="Stroke-103"></path>
+                                                        <path d="M53.592,7.48425974 C53.592,11.6180659 56.941442,14.9685195 61.074,14.9685195 C65.206558,14.9685195 68.556,11.6180659 68.556,7.48425974 C68.556,3.35045361 65.206558,0 61.074,0 C56.941442,0 53.592,3.35045361 53.592,7.48425974 Z" id="Stroke-103-Copy"></path>
+                                                        <path d="M19.1238952,31.9617662 L0,31.9617662 C0,25.0737525 5.581572,19.488 12.47,19.488 L17.458,19.488 C20.0582242,19.488 22.4722359,20.2839083 24.4701135,21.6453316 C24.8323955,21.8922032 25.1809943,22.1576699 25.5145389,22.440358" id="Stroke-104"></path>
+                                                        <path d="M69.2358952,31.9617662 L50.112,31.9617662 C50.112,25.0737525 55.693572,19.488 62.582,19.488 L67.57,19.488 C70.1702242,19.488 72.5842359,20.2839083 74.5821135,21.6453316 C74.9443955,21.8922032 75.2929943,22.1576699 75.6265389,22.440358" id="Stroke-104-Copy" transform="translate(62.869269, 25.724883) scale(-1, 1) translate(-62.869269, -25.724883) "></path>
+                                                    </g>
+                                                </g>
+                                                <g id="Group-9-Copy" transform="translate(18.792000, 41.064000)"></g>
+                                            </g>
+                                        </g>
+                                        <rect id="Rectangle-8-Copy-4" stroke="#25D194" stroke-width="1.2" fill="none" x="40.1592" y="154.625987" width="34.296" height="16.896" rx="1.392"></rect>
+                                        <rect id="Rectangle-8-Copy-5" stroke="#25D194" stroke-width="1.2" fill="none" x="183.5352" y="154.625987" width="34.296" height="16.896" rx="1.392"></rect>
+                                        <text id="Editar" stroke="none" fill="none" font-family="Avenir-Heavy, Avenir" font-size="7.656" font-weight="600" letter-spacing="-0.176676929">
+                                            <tspan x="46.5192" y="165.505987" fill="#25D194">Editar</tspan>
+                                        </text>
+                                        <text id="Editar" stroke="none" fill="none" font-family="Avenir-Heavy, Avenir" font-size="7.656" font-weight="600" letter-spacing="-0.176676929">
+                                            <tspan x="189.8952" y="165.505987" fill="#25D194">Editar</tspan>
+                                        </text>
+                                        <g id="Group-4-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(143.959200, 0.905987)">
+                                            <rect id="Rectangle-2-Copy-5" stroke="#EAE9ED" stroke-width="1.2" x="0.6" y="114.048" width="111.552" height="64.224"></rect>
+                                            <g id="Group-11">
+                                                <rect id="Rectangle-2" fill="#422E86" x="0" y="0" width="112.752" height="114.144"></rect>
+                                                <g id="Group-9" transform="translate(18.096000, 41.064000)" stroke-linecap="round" stroke-width="2.088" stroke="#FFFFFF" stroke-linejoin="round">
+                                                    <g id="Group-10">
+                                                        <path d="M44.892,11.6602597 C44.892,15.7940659 41.542558,19.1445195 37.41,19.1445195 C33.277442,19.1445195 29.928,15.7940659 29.928,11.6602597 C29.928,7.52645361 33.277442,4.176 37.41,4.176 C41.542558,4.176 44.892,7.52645361 44.892,11.6602597 Z" id="Stroke-103"></path>
+                                                        <path d="M52.896,36.1377662 L22.968,36.1377662 C22.968,29.2497525 28.549572,23.664 35.438,23.664 L40.426,23.664 C47.314428,23.664 52.896,29.2497525 52.896,36.1377662 Z" id="Stroke-104"></path>
+                                                        <path d="M21.924,7.48425974 C21.924,11.6180659 18.574558,14.9685195 14.442,14.9685195 C10.309442,14.9685195 6.96,11.6180659 6.96,7.48425974 C6.96,3.35045361 10.309442,0 14.442,0 C18.574558,0 21.924,3.35045361 21.924,7.48425974 Z" id="Stroke-103"></path>
+                                                        <path d="M53.592,7.48425974 C53.592,11.6180659 56.941442,14.9685195 61.074,14.9685195 C65.206558,14.9685195 68.556,11.6180659 68.556,7.48425974 C68.556,3.35045361 65.206558,0 61.074,0 C56.941442,0 53.592,3.35045361 53.592,7.48425974 Z" id="Stroke-103-Copy"></path>
+                                                        <path d="M19.1238952,31.9617662 L0,31.9617662 C0,25.0737525 5.581572,19.488 12.47,19.488 L17.458,19.488 C20.0582242,19.488 22.4722359,20.2839083 24.4701135,21.6453316 C24.8323955,21.8922032 25.1809943,22.1576699 25.5145389,22.440358" id="Stroke-104"></path>
+                                                        <path d="M69.2358952,31.9617662 L50.112,31.9617662 C50.112,25.0737525 55.693572,19.488 62.582,19.488 L67.57,19.488 C70.1702242,19.488 72.5842359,20.2839083 74.5821135,21.6453316 C74.9443955,21.8922032 75.2929943,22.1576699 75.6265389,22.440358" id="Stroke-104-Copy" transform="translate(62.869269, 25.724883) scale(-1, 1) translate(-62.869269, -25.724883) "></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(287.683200, 0.905987)">
+                                            <g id="Rectangle-2-Copy-2">
+                                                <use fill="#C6C0DA" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                                <rect stroke="#EAE9ED" stroke-width="1.2" x="0.6" y="0.6" width="111.552" height="112.944"></rect>
+                                            </g>
+                                        </g>
+                                        <text id="Top-performance" stroke="none" fill="none" font-family="AvenirNext-Medium, Avenir Next" font-size="10.44" font-weight="400">
+                                            <tspan x="15.24096" y="132.705987" fill="#1E143E">Top performance</tspan>
+                                        </text>
+                                        <text id="Projeto-ABC" stroke="none" fill="none" font-family="AvenirNext-Medium, Avenir Next" font-size="10.44" font-weight="400">
+                                            <tspan x="170.8422" y="132.705987" fill="#1E143E">Projeto ABC</tspan>
+                                        </text>
+                                        <text id="Criar-novo-grupo" stroke="none" fill="none" font-family="AvenirNext-Medium, Avenir Next" font-size="10.44" font-weight="400">
+                                            <tspan x="303.38322" y="132.705987" fill="#1E143E">Criar novo grupo</tspan>
+                                        </text>
+                                        <rect id="Rectangle-2-Copy-6" stroke="#EAE9ED" stroke-width="1.2" fill="none" x="287.9352" y="114.953987" width="111.552" height="29.367624"></rect>
+                                        <text id="7-membros" stroke="none" fill="none" font-family="AvenirNext-Medium, Avenir Next" font-size="9.048" font-weight="400">
+                                            <tspan x="33.235344" y="147.017987" fill="#9591A1">7 membros</tspan>
+                                        </text>
+                                        <text id="21-membros" stroke="none" fill="none" font-family="AvenirNext-Medium, Avenir Next" font-size="9.048" font-weight="400">
+                                            <tspan x="173.919564" y="147.017987" fill="#9591A1">21 membros</tspan>
+                                        </text>
+                                        <path d="M347.1912,74.6819866 C347.1912,75.1923892 347.005602,75.6331848 346.6344,76.0043866 C346.263198,76.3755885 345.822403,76.5611866 345.312,76.5611866 L342.7368,76.5611866 C342.226397,76.5611866 341.785602,76.3755885 341.4144,76.0043866 C341.043198,75.6331848 340.8576,75.1923892 340.8576,74.6819866 L340.8576,60.8315866 L327.216,60.8315866 C326.705597,60.8315866 326.264802,60.6459885 325.8936,60.2747866 C325.522398,59.9035848 325.3368,59.4627892 325.3368,58.9523866 L325.3368,56.7947866 C325.3368,56.2843841 325.522398,55.8435885 325.8936,55.4723866 C326.264802,55.1011848 326.705597,54.9155866 327.216,54.9155866 L340.8576,54.9155866 L340.8576,41.2739866 C340.8576,40.7635841 341.043198,40.3227885 341.4144,39.9515866 C341.785602,39.5803848 342.226397,39.3947866 342.7368,39.3947866 L345.312,39.3947866 C345.822403,39.3947866 346.263198,39.5803848 346.6344,39.9515866 C347.005602,40.3227885 347.1912,40.7635841 347.1912,41.2739866 L347.1912,54.9155866 L360.9024,54.9155866 C361.412803,54.9155866 361.853598,55.1011848 362.2248,55.4723866 C362.596002,55.8435885 362.7816,56.2843841 362.7816,56.7947866 L362.7816,58.9523866 C362.7816,59.4627892 362.596002,59.9035848 362.2248,60.2747866 C361.853598,60.6459885 361.412803,60.8315866 360.9024,60.8315866 L347.1912,60.8315866 L347.1912,74.6819866 Z" id="+-copy" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

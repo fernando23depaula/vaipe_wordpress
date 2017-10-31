@@ -6,8 +6,7 @@
 
 	<title>Vaipe</title>
 	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" href="js/slick-1.8.0/slick/slick.css">
-	<link rel="stylesheet" href="js/slick-1.8.0/slick/slick-theme.css">
+	<link rel="stylesheet" href="css/slider-pro.min.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -15,46 +14,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <!-- <script src="https://use.fontawesome.com/e9abb40d2f.js"></script> -->
-<script src="js/slick-1.8.0/slick/slick.min.js"></script>
-<style>
-	.slider {
-        width: 50%;
-        margin: 100px auto;
-    }
+<script src="js/jquery.sliderPro.min.js"></script>
+<script src="js/scripts.js"></script>
 
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
-
-
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
-    
-    .slick-active {
-      opacity: .5;
-    }
-
-    .slick-current {
-      opacity: 1;
-    }
-
-    .slick-slide {
-    text-align: center;
-    background: rgba(255,255,255,0.5);
-    margin: 10px;
-}
-</style>
 </head>
 <!-- php para condicional css -->
 <body  <?php //body_class( 'class-name' ); ?> >
@@ -135,36 +97,347 @@
 	<section id="superFerramentas">
 		<div class="container center-important">
 			<h3 class="text-center">Super ferramentas à sua disposição</h3>
-				  <div style="background: #3498db; padding: 100px; margin: 10px;">
-					<div class="large-slick">
-					    <div><h1>1</h1></div>
-					    <div><h1>2</h1></div>
-					    <div><h1>3</h1></div>
-					    <div><h1>4</h1></div>
-					    <div><h1>5</h1></div>
+				<div id="example1" class="slider-pro">
+					<div class="sp-slides">
+						<div class="sp-slide">
+							<div class="containerFerramentas">
+								<h4 class="">TERMÔMETRO DE ENGAJAMENTO</h4>
+								<div class="col-50">
+									<div><img src="img/meca_o_engajamento_continuamente/img_pergunta_enps.svg" alt="" class="img-fluid center-important"></div>
+									<div><img src="img/meca_o_engajamento_continuamente/imagem_grafico_enps.svg" alt="" class="img-fluid center-important"></div>
+								</div>
+								<div class="col-50">
+									<div class="containerInfo">
+										<p class="titulo">UMA PERGUNTA eNPS POR MÊS</p>
+										<div class="conteudo">
+											<p>
+												Toda primeira quarta-feira do mês enviamos a pergunta eNPS (employee Net Promoter Score) para medir o engajamento e lealdade do seu time!
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">FUNCIONALIDADES:</p>
+										<div class="conteudo">
+											<ul>
+												<li>• 1 pergunta eNPS; </li>
+												<li>• 1 vez por mês;</li>
+												<li>• Ciclo mensal;</li>
+												<li>• 1ª quarta-feira do mês;</li>
+												<li>• 48h para responder;</li>
+												<li>• Lembrete de resposta;</li>
+												<li>• Anonimato garantido;</li>
+												<li>• Espaço para feedback por escrito;</li>
+												<li>• Comparativo com mercado.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+				        <div class="sp-slide">
+				        	<div class="containerFerramentas">
+								<h4 class="">RESPONDA AOS FEEDBACKS COM CHAT RH</h4>
+								<div class="col-50">
+									<div><img src="img/menu-ferramentas/chat-RH/chat-RH-imagem-1.svg" alt="" class="img-fluid center-important"></div>
+								</div>
+								<div class="col-50">
+									<div class="containerInfo">
+										<p class="titulo">DIRECIONE OS FEEDBACKS</p>
+										<div class="conteudo">
+											<p>
+												Como todas as perguntas têm espaço para comentários, o RH ou responsável por Gente e Gestão também pode responder os colaboradores.
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">ANONIMATO GARANTIDO</p>
+										<div class="conteudo">
+											<p>
+												Em nenhum momento o colaborador precisa se identificar. Garantimos que toda a comunicação seja anônima, de ponta a ponta.
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">RESPOSTAS EM TEMPO REAL</p>
+										<div class="conteudo">
+											<p>
+												Ao responder um colaborador, ele recebe uma notificação de que foi ouvido. É possível continuar a conversa direto pela plaforma e trocar quantas mensagens quiser!
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<div class="sp-slide">
+							<div class="containerFerramentas">
+								<h4 class="">PESQUISA DE CLIMA CONTÍNUA</h4>
+								<div class="col-50">
+									<div ><img src="img/menu-ferramentas/clima/Imagem-pesquisa-continua-1.svg" alt="" class="img-fluid center-important"></div>
+									<div ><img src="img/menu-ferramentas/clima/Imagem-pesquisa-continua-clima-2.svg" alt="" class="img-fluid center-important"></div>
+								</div>
+								<div class="col-50">
+									<div class="containerInfo">
+										<p class="titulo">PESQUISA DE CLIMA CONTÍNUA</p>
+										<div class="conteudo">
+											<p>
+												Uma vez por semana enviamos uma pergunta sim ou não  para os seus colaboradores responderem! São 53 perguntas no total.
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">FUNCIONALIDADES:</p>
+										<div class="conteudo">
+											<ul>
+												<li>• 53 perguntas sim ou não;</li>
+												<li>• 1 pergunta por semana;</li>
+												<li>• Ciclo anual;</li>
+												<li>• Toda segunda-feira;</li>
+												<li>• 48h para responder;</li>
+												<li>• Lembrete de resposta;</li>
+												<li>• Anonimato garantido;</li>
+												<li>• Espaço para comentar;</li>
+												<li>• Comparativo com mercado.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<div class="sp-slide">
+							<div class="containerFerramentas">
+								<h4 class="">DIAGNÓSTICO INICIAL</h4>
+								<div class="col-50">
+									<div ><img src="img/menu-ferramentas/diagnostico-inicial/diagnostico-inicial-1.svg" alt="" class="img-fluid center-important"></div>
+									<div class="containerInfo">
+										<p class="titulo">ESCOLHA ENTRE 54 PERGUNTAS</p>
+										<div class="conteudo">
+											<p>
+												Todas as 53 perguntas de clima e a pergunta de engajamento eNPS enviadas em um único formulário. Assim você tem um diagóstico inicial.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-50">
+									<div ><img src="img/menu-ferramentas/diagnostico-inicial/diagnostico-inicial-2.svg" alt="" class="img-fluid center-important"></div>
+									<div class="containerInfo">
+										<p class="titulo">TENHA O PERFIL DO SEU TIME</p>
+										<div class="conteudo">
+											<p>
+												Acompanhe os resultados da sua pesquisa resumidos ou em detalhes: tudo filtrado por departamentos, grupos ou senioridade. Além de ter a visão de perfil.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<div class="sp-slide">
+							
+						</div>
 					</div>
-					<div class="small-slick">
-					    <div><h1>1</h1></div>
-					    <div><h1>2</h1></div>
-					    <div><h1>3</h1></div>
-					    <div><h1>4</h1></div>
-					    <div><h1>5</h1></div>
+
+					<div class="sp-thumbnails">
+						<div class="sp-thumbnail thumbnailContainerIcon">
+							<div class="ajusteThumb">
+								<img src="img/menu-ferramentas/icon-termometro.svg" alt="">
+								<p>Termômetro</p>
+							</div>
+						</div>
+
+						<div class="sp-thumbnail thumbnailContainerIcon">
+							<div class="ajusteThumb">
+								<img src="img/menu-ferramentas/icon-chat-rh.svg" alt="">
+								<p>Chat RH</p>
+							</div>
+						</div>
+
+						<div class="sp-thumbnail thumbnailContainerIcon">
+							<div class="ajusteThumb">
+								<img src="img/menu-ferramentas/icon-clima.svg" alt="">
+								<p>Clima</p>
+							</div>
+						</div>
+
+						<div class="sp-thumbnail thumbnailContainerIcon">
+							<div class="ajusteThumb">
+								<img src="img/menu-ferramentas/icone-diagnostico.svg" alt="">
+								<p>Diagnostico</p>
+							</div>
+						</div>
+
+						<div class="sp-thumbnail thumbnailContainerIcon">
+							<div class="ajusteThumb">
+								<img src="img/menu-ferramentas/icon-.svg" alt="">
+								<p>Grupos</p>
+							</div>
+						</div>
 					</div>
-				</div>
-	
-			<script>
-				$(document).ready(function(){
-					 $('.small-slick').slick({
-         slidesToShow: 3,
-         slidesToScroll: 1,
-         dots: true,
-         centerMode: true,
-         focusOnSelect: true,
-         arrows: true,
-         asNavFor: '.large-slick'
-     });
-				});
-			</script>
+			    </div>
+
+
+			    <div id="sliderMobile">
+			    	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					   <div class="carousel-item active">
+							<div class="containerFerramentas">
+								<h4 class="">TERMÔMETRO DE ENGAJAMENTO</h4>
+								<div class="col-50">
+									<div><img src="img/meca_o_engajamento_continuamente/img_pergunta_enps.svg" alt="" class="img-fluid center-important"></div>
+									<div><img src="img/meca_o_engajamento_continuamente/imagem_grafico_enps.svg" alt="" class="img-fluid center-important"></div>
+								</div>
+								<div class="col-50">
+									<div class="containerInfo">
+										<p class="titulo">UMA PERGUNTA eNPS POR MÊS</p>
+										<div class="conteudo">
+											<p>
+												Toda primeira quarta-feira do mês enviamos a pergunta eNPS (employee Net Promoter Score) para medir o engajamento e lealdade do seu time!
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">FUNCIONALIDADES:</p>
+										<div class="conteudo">
+											<ul>
+												<li>• 1 pergunta eNPS; </li>
+												<li>• 1 vez por mês;</li>
+												<li>• Ciclo mensal;</li>
+												<li>• 1ª quarta-feira do mês;</li>
+												<li>• 48h para responder;</li>
+												<li>• Lembrete de resposta;</li>
+												<li>• Anonimato garantido;</li>
+												<li>• Espaço para feedback por escrito;</li>
+												<li>• Comparativo com mercado.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+				        <div class="carousel-item ">
+				        	<div class="containerFerramentas">
+								<h4 class="">RESPONDA AOS FEEDBACKS COM CHAT RH</h4>
+								<div class="col-50">
+									<div><img src="img/menu-ferramentas/chat-RH/chat-RH-imagem-1.svg" alt="" class="img-fluid center-important"></div>
+								</div>
+								<div class="col-50">
+									<div class="containerInfo">
+										<p class="titulo">DIRECIONE OS FEEDBACKS</p>
+										<div class="conteudo">
+											<p>
+												Como todas as perguntas têm espaço para comentários, o RH ou responsável por Gente e Gestão também pode responder os colaboradores.
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">ANONIMATO GARANTIDO</p>
+										<div class="conteudo">
+											<p>
+												Em nenhum momento o colaborador precisa se identificar. Garantimos que toda a comunicação seja anônima, de ponta a ponta.
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">RESPOSTAS EM TEMPO REAL</p>
+										<div class="conteudo">
+											<p>
+												Ao responder um colaborador, ele recebe uma notificação de que foi ouvido. É possível continuar a conversa direto pela plaforma e trocar quantas mensagens quiser!
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<div class="carousel-item ">
+							<div class="containerFerramentas">
+								<h4 class="">PESQUISA DE CLIMA CONTÍNUA</h4>
+								<div class="col-50">
+									<div ><img src="img/menu-ferramentas/clima/Imagem-pesquisa-continua-1.svg" alt="" class="img-fluid center-important"></div>
+									<div ><img src="img/menu-ferramentas/clima/Imagem-pesquisa-continua-clima-2.svg" alt="" class="img-fluid center-important"></div>
+								</div>
+								<div class="col-50">
+									<div class="containerInfo">
+										<p class="titulo">PESQUISA DE CLIMA CONTÍNUA</p>
+										<div class="conteudo">
+											<p>
+												Uma vez por semana enviamos uma pergunta sim ou não  para os seus colaboradores responderem! São 53 perguntas no total.
+											</p>
+										</div>
+									</div>
+									<div class="containerInfo">
+										<p class="titulo">FUNCIONALIDADES:</p>
+										<div class="conteudo">
+											<ul>
+												<li>• 53 perguntas sim ou não;</li>
+												<li>• 1 pergunta por semana;</li>
+												<li>• Ciclo anual;</li>
+												<li>• Toda segunda-feira;</li>
+												<li>• 48h para responder;</li>
+												<li>• Lembrete de resposta;</li>
+												<li>• Anonimato garantido;</li>
+												<li>• Espaço para comentar;</li>
+												<li>• Comparativo com mercado.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<div class="carousel-item ">
+							<div class="containerFerramentas">
+								<h4 class="">DIAGNÓSTICO INICIAL</h4>
+								<div class="col-50">
+									<div ><img src="img/menu-ferramentas/diagnostico-inicial/diagnostico-inicial-1.svg" alt="" class="img-fluid center-important"></div>
+									<div class="containerInfo">
+										<p class="titulo">ESCOLHA ENTRE 54 PERGUNTAS</p>
+										<div class="conteudo">
+											<p>
+												Todas as 53 perguntas de clima e a pergunta de engajamento eNPS enviadas em um único formulário. Assim você tem um diagóstico inicial.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-50">
+									<div ><img src="img/menu-ferramentas/diagnostico-inicial/diagnostico-inicial-2.svg" alt="" class="img-fluid center-important"></div>
+									<div class="containerInfo">
+										<p class="titulo">TENHA O PERFIL DO SEU TIME</p>
+										<div class="conteudo">
+											<p>
+												Acompanhe os resultados da sua pesquisa resumidos ou em detalhes: tudo filtrado por departamentos, grupos ou senioridade. Além de ter a visão de perfil.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<!-- <div class="carousel-item ">
+							
+						</div> -->
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+			    </div>
 			<p>Que tal bater um papo sobre clima?</p>
 			<button class="faleComConsultor button-centralizado">Fale com um consultor</button>
 		</div>

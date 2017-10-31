@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="398px" height="138px" viewBox="0 0 398 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 40 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.3%" y="-3.8%" width="103.6%" height="110.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.251188859 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ferramenta-Clima" transform="translate(-299.000000, -395.000000)">
+            <g transform="translate(0.000000, -1.000000)" id="Group-40-Copy">
+                <g transform="translate(301.000000, 398.000000)">
+                    <g id="Group-38-Copy-2" filter="url(#filter-1)">
+                        <g id="Group-44">
+                            <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="390" height="130" rx="4.86999989"></rect>
+                            <rect id="Rectangle-18" fill="#3BDEA5" x="19" y="35" width="33" height="33" rx="2.4"></rect>
+                            <text id="Sim" font-family="Rubik-Light, Rubik" font-size="15" font-weight="300" letter-spacing="-0.649999976" fill="#FFFFFF">
+                                <tspan x="23" y="57">Si</tspan>
+                                <tspan x="34.12" y="57">m</tspan>
+                            </text>
+                            <rect id="Rectangle-18-Copy-2" fill="#FF7070" x="68" y="35" width="33" height="33" rx="2.4"></rect>
+                            <text id="Você-acha-que-seu-sa" opacity="0.705398787" font-family="Rubik-Light, Rubik" font-size="15" font-weight="300" line-spacing="19" letter-spacing="-0.49000001" fill="#383838">
+                                <tspan x="16" y="24">Você acha que seu salário é compatível com o mercado?</tspan>
+                            </text>
+                            <text id="Não" font-family="Rubik-Light, Rubik" font-size="15" font-weight="300" letter-spacing="-0.649999976" fill="#FFFFFF">
+                                <tspan x="72" y="56">Não</tspan>
+                            </text>
+                            <rect id="Rectangle-17" fill="#DCDCDC" x="19" y="76" width="259" height="17" rx="2"></rect>
+                            <rect id="Rectangle-17-Copy" fill="#F0F0F0" x="19" y="98" width="135" height="17" rx="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
